@@ -1,0 +1,188 @@
+
+a:link,
+a:visited {
+    text-decoration: none;  
+}
+
+a:hover,
+a:active {
+    color: #666666;
+}
+
+body{
+	margin: 0;
+	font-family: Arial;
+}
+
+header{
+	background-color: #CABBB7;
+}
+
+header h1{
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.imgheader{
+	width: 400px;
+	margin: 50px 100px;
+}
+
+nav{
+	background-color: #C65252;
+	padding: 10px 0px;    /*10px = top+bottom padding  0px = left+right padding*/	
+}
+
+nav ul{
+	list-style: none;
+	text-align: right;
+	margin-right: 50px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding-right: 90px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+/* Stylesheet for content of index.html starts --> */
+
+.content{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#firstSection{
+	height: 300px;
+	font-size: 54px;
+	padding-bottom: 100px;
+}
+
+#phone{				/*id of the image only*/
+	height: 300px;
+	width: 100%;
+	object-fit: cover; /*covers the width of the secondSection without stretching the image*/
+}
+
+#thirdSection{
+	margin: 30px
+}
+
+.leftcolumn{
+	float: left;	/*Column floats left*/
+	width: 40%;		
+}
+
+.rightcolumn{
+	float: right;	/* Column floats right*/	
+}
+
+.leftcolumn img{	/* height of the image only, not the container*/
+	height: 300px;
+}
+
+.rightcolumn img{	/* height of the image only, not the container*/
+	height: 300px;
+}
+
+footer{
+	text-align: center;
+	background-color: #CABBB7;
+
+	padding: 20px;
+	clear: both; 	/*otherwise the floating doesn´t end --> Footer would be part of the columns */
+}
+
+footer img{
+	width: 300px;
+}
+
+
+
+/*Stylesheet for content of contact.html starts*/
+
+.form{
+	text-align: left;
+	padding: 30px;
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+
+form input{
+	padding: 10px;
+	width: 30%;
+}
+
+form textarea{
+	width: 50%;
+	height: 200px;
+}
+
+.contactinfo{
+	float: right;
+	margin-top: 100px;
+	margin-right: 100px;
+	padding: 20px;
+	font-family: Georgia;
+	font-size: 24px;
+	color:  #990000;
+	background-color:  #cccccc;
+	border-radius: 15px;
+
+
+}
+
+/*Stylesheet for content of about.html starts */
+
+#dog{
+	float: left;
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+#moreabout{
+
+	height: 300px;
+	background-color: #404040;
+	color: #e6e6e6;
+	font-family: 'Open Sans', sans-serif;
+	padding:50px;
+	margin: 50px 0px;
+}
+
+#abouttext{
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+/*Stylesheet for content of blog.html starts*/
+
+#firstcol{
+	float: left;
+	margin: 30px;
+}
+#secondcol{
+	float: left;
+	margin: 30px;
+}
+
+#thirdcol{
+	float: left;
+	margin: 30px;
+}
+
+
+/* End of style.css*/
+
